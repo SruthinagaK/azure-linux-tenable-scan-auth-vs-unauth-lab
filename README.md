@@ -2,16 +2,21 @@
 
 ## Part A: Lab Setup and Scan Execution
 
-### 1. Creating the Linux VM in Azure
+### 1. Created the Linux VM in Azure
 
 - **Operating System**: Ubuntu 22.04 LTS
 - **Steps**:
   1. Go to the **Azure Portal** and navigate to **Virtual Machines > Create**.
-  2. Select **Ubuntu 22.04 LTS** as the image .
-  3. Configure the **inbound port rules** to allow:
+  2. - **Operating System**: Linux (Ubuntu 24.04)
+    - **VM Size**: Standard DS1 v2
+    - **vCPUs**: 1
+  - **RAM**: 3.5 GiB
+  - **VM Generation**: V2
+  - **VM Architecture**: x64
+ 3.. Configure the **inbound port rules** to allow:
      - **SSH (TCP/22)** for remote access.
      - **ICMP** (ping) by modifying the Network Security Group (NSG).
-  4. Complete the setup and deploy the VM.
+ 5.. Complete the setup and deploy the VM.
   5. Note the **public IP address** for remote access.
 
 ### 2. Connectivity Testing
