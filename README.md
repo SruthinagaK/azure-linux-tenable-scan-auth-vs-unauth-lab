@@ -49,7 +49,7 @@
 - ## Part A: Vulnerability Identification and Comparison
 
 
-## Vulnerability Comparison Using NIST RMF
+## Vulnerability Comparison 
 
 
 | Plugin ID | Name | Severity | CVSS v3 Score | CVSS Vector | CWE ID | CWE Name | Patch Available |
